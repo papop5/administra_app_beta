@@ -1,5 +1,5 @@
 class Vehiculo < ActiveRecord::Base
-  belongs_to :apartamento
+  belongs_to :apartamento #relacion de uno a uno
 
   validates :placa, presence: true, uniqueness: true
   validates :color, presence: true

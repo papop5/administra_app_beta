@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  
+  resources :sesiones
   resources :usuarios
   resources :vehiculos
   resources :residentes

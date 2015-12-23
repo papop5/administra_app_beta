@@ -1,5 +1,5 @@
 class Apartamento < ActiveRecord::Base
-	has_many :vehiculos
+	has_many :vehiculos  #relacion de uno a muchos
 	has_many :residentes
 
 	validates :numero, presence: true, uniqueness: true
